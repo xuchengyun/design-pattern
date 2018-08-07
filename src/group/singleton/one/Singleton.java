@@ -5,6 +5,8 @@ package group.singleton.one;
  */
 public class Singleton {
 
+
+    // volatile can keep multiple threads to access the same memory
     private volatile static Singleton singleton;
 
     private Singleton() {};
